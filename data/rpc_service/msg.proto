@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message inMsg {
+    string phonenumber = 1;
+    int32 num = 2;
+}
+
+message outMsg {
+    string msg = 1;
+}
+
+service SerService{
+  rpc rec (inMsg) returns(outMsg);
+}
+
