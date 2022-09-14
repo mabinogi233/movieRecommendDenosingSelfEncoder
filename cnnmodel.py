@@ -14,10 +14,6 @@ import numpy as np
 import keras
 from keras import losses
 
-from elephas.spark_model import SparkModel
-
-from elephas.utils.rdd_utils import to_simple_rdd
-
 import get_data
 
 # Path for spark source folder
